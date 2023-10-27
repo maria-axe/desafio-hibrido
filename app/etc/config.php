@@ -349,7 +349,6 @@ return [
         'Hibrido_Carousel' => 1,
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
-        'Smile_DebugToolbar' => 1,
         'Temando_ShippingRemover' => 1
     ]
 ];
