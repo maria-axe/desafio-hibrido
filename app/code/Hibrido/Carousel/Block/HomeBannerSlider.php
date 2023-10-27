@@ -30,13 +30,13 @@ class HomeBannerSlider extends Template
         return [
             [
                 'image' => $mediaUrl . 'banners/banner-principal1.webp',
-                'url' => 'https://desafio-hibrido.test/women.html',
+                'url' => '/women.html',
                 'alt' => 'Banner 1',
                 'title' => __('Shop the New. Outerwear Collection'),
             ],
             [
                 'image' => $mediaUrl . 'banners/banner-principal2.webp',
-                'url' => 'https://desafio-hibrido.test/women.html',
+                'url' => '/women.html',
                 'alt' => 'Banner 2',
                 'title' => __('Accessories to Keep Your Style Game Strong'),
             ],
