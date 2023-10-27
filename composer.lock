@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2e30ca1c624c87bcdebdf389b0d99463",
+    "content-hash": "44c1d35e991d37f705106fb0aa96dd18",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -27050,60 +27050,6 @@
                 }
             ],
             "time": "2020-09-28T06:39:44+00:00"
-        },
-        {
-            "name": "smile/module-debug-toolbar",
-            "version": "7.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Smile-SA/magento2-module-debug-toolbar.git",
-                "reference": "8333b0360a304cee15e9b61f0371c3bf6af5620a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Smile-SA/magento2-module-debug-toolbar/zipball/8333b0360a304cee15e9b61f0371c3bf6af5620a",
-                "reference": "8333b0360a304cee15e9b61f0371c3bf6af5620a",
-                "shasum": ""
-            },
-            "require": {
-                "magento/framework": ">=103.0.4",
-                "magento/module-config": ">=101.2.4",
-                "php": "^8.1"
-            },
-            "require-dev": {
-                "smile/magento2-smilelab-quality-suite": "^3.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Smile\\DebugToolbar\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "EPL-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Smile Technical Office",
-                    "email": "dirtech@smile.fr"
-                }
-            ],
-            "description": "Smile Debug Toolbar",
-            "homepage": "https://github.com/Smile-SA/magento2-module-debug-toolbar",
-            "keywords": [
-                "debug",
-                "magento2",
-                "toolbar"
-            ],
-            "support": {
-                "issues": "https://github.com/Smile-SA/magento2-module-debug-toolbar/issues",
-                "source": "https://github.com/Smile-SA/magento2-module-debug-toolbar/tree/7.0.0"
-            },
-            "time": "2023-09-05T08:29:21+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
