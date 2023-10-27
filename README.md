@@ -25,6 +25,6 @@ Optei pelo uso do Slick Carousel devido à sua presença nativa no Magento 2 e �
 Para a compilação das estilizações dos arquivos .less, foi configurado o grunt e utilizado em todos os processos de estilização da tarefa. 
 
 6. Traduções: 
-Foram traduzidos todos os textos das seções da tarefa no arquivo de tradução i18n, acrescentando as tags devidas para cada arquivo.  
+Foram traduzidos todos os textos das seções da tarefa no arquivo de tradução i18n, acrescentando as tags devidas para cada arquivo. Também foi feita a instalação do módulo "rafaelstz/traducao_magento2_pt_br" para a tradução do Magento 2.
 
 Fico à disposição para esclarecimentos adicionais sobre o trabalho realizado e agradeço pela oportunidade!
