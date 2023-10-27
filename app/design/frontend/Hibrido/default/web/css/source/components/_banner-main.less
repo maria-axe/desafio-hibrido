@@ -11,6 +11,18 @@
 & when (@media-common =true) {
     .cms-home {
         .page-wrapper {
+            .logo {
+                max-width: 100px;
+            }
+
+            .nav-sections {
+                margin-bottom: 0;
+            }
+
+            .section-item-content {
+                border-bottom: 2px solid #6E716E;
+            }
+
             .banner-slider {
                 .slick-list {
                     a {
@@ -53,6 +65,10 @@
 .media-width(@extremum, @break) when (@extremum ='max') and (@break =@screen__m) {
     .cms-home {
         .page-wrapper {
+            .page-header {
+                margin-bottom: 0;
+            }
+
             .banner-slider {
                 &.slick-initialized {
                     .slick-list {

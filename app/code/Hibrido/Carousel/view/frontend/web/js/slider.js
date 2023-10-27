@@ -42,7 +42,7 @@ require(['jquery', 'slick'], function ($) {
                     }
                 },
                 {
-                    breakpoint: 768,
+                    breakpoint: 762,
                     settings: {
                         slidesToShow: 2,
                         arrows: false,
