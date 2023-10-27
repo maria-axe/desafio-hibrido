@@ -27,4 +27,11 @@ Para a compilação das estilizações dos arquivos .less, foi configurado o gru
 6. Traduções: 
 Foram traduzidos todos os textos das seções da tarefa no arquivo de tradução i18n, acrescentando as tags devidas para cada arquivo. Também foi feita a instalação do módulo "rafaelstz/traducao_magento2_pt_br" para a tradução do Magento 2.
 
+### Abaixo alguns prints do projeto:
+
+![Seção dos Banners Principais](docs/image-banner.png)
+![Seções de "Como funciona e grade de banners"](docs/image-2.png)
+![Seção da Vitrine de Produtos](docs/image3.png)
+![Print mobile](docs/desafio-hibrido-mobile.png)
+
 Fico à disposição para esclarecimentos adicionais sobre o trabalho realizado e agradeço pela oportunidade!
