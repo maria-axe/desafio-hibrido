@@ -29,9 +29,9 @@ Foram traduzidos todos os textos das seções da tarefa no arquivo de tradução
 
 ### Abaixo alguns prints do projeto:
 
-![Seção dos Banners Principais](docs/image-banner.png)
-![Seções de "Como funciona e grade de banners"](docs/image-2.png)
-![Seção da Vitrine de Produtos](docs/image3.png)
-![Print mobile](docs/desafio-hibrido-mobile.png)
+![Seção dos Banners Principais](docs/imagens/image-banner.png)
+![Seções de "Como funciona e grade de banners"](docs/imagens/image-2.png)
+![Seção da Vitrine de Produtos](docs/imagens/image3.png)
+![Print mobile](docs/imagens/desafio-hibrido-mobile.png)
 
 Fico à disposição para esclarecimentos adicionais sobre o trabalho realizado e agradeço pela oportunidade!
