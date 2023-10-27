@@ -5,6 +5,20 @@
 
 Essa tarefa escolhida envolve a criação de várias seções na página inicial de um site Magento 2, incluindo um banner principal rotativo (full width), uma seção "Como Funciona", uma vitrine de produtos de uma categoria específica e uma grade de banners.
 
+### Rodando o projeto
+
+1. Você precisa ter um docker ou um ambiente local de sua preferência. 
+2. Baixe o arquivo SQL que se localizado no root do projeto.
+> mage_desafio-hibrido_27-10-2023.sql.gz
+3. Crie um banco de dados em seu ambiente e importe o banco para o mesmo. 
+4. Após isso, rode um composer install. 
+ `composer install`
+5. Coloque em modo desenvolvedor.
+`bin/magento set:mode:developer`
+6. Dê um upgrade.
+ `bin/magento setup:upgrade`
+ 7. Não se esqueça de setar a URL base. 
+ 8. E pronto, já pode adentrar ao projeto! 
 
 ### Implementação das seções: 
 
