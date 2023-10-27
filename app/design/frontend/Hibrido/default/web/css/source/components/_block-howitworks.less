@@ -1,0 +1,63 @@
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ *
+ * @author    Hibrido -2023  
+*/
+
+//
+//  Common
+//  _____________________________________________
+
+& when (@media-common =true) {
+    .cms-home {
+        .page-wrapper {
+            .block-howitworks {
+                background: #FDFEF3;
+
+                .title-howitworks {
+                    display: flex;
+                    justify-content: center;
+                    font-size: 2rem;
+                    font-weight: 700;
+                    margin-bottom: 10px;
+                    margin-top: 10px;
+                }
+
+                .content-howitworks {
+                    display: flex;
+                    justify-content: center;
+
+                    .item-howitworks {
+                        a {
+                            display: flex;
+                            flex-direction: column;
+                            max-width: 250px;
+                            text-decoration: none;
+
+                            span {
+
+                                &.title-item-howitworks,
+                                &.description-howitworks {
+                                    display: flex;
+                                    justify-content: center;
+                                    color: #000;
+                                }
+
+                                &.title-item-howitworks {
+                                    font-weight: 700;
+                                    font-size: 1.4rem;
+                                    margin-bottom: 5px;
+                                }
+
+                                &.description-howitworks {
+                                    font-size: 1.2rem;
+                                    text-align: center;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    layout="1column"
+    xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <script src="Hibrido_Carousel::js/slider.js" async="async" />
+    </head>
+    <body>
+        <referenceBlock name="page.top">
+            <block class="Hibrido\Carousel\Block\HomeBannerSlider" name="home.banner.slider" template="Hibrido_Carousel::home_banner_slider.phtml"/>
+            <block class="Hibrido\Carousel\Block\HomeBlockHowItWorks" name="home.block.howitworks" template="Hibrido_Carousel::home_block_howitworks.phtml" after="home.banner.slider"/>
+            <block class="Hibrido\Carousel\Block\HomeBannerGrid" name="home.banner.grid" template="Hibrido_Carousel::home_banner_grid.phtml" after="home.block.howitworks"/>
+        </referenceBlock>
+    </body>
+</page>

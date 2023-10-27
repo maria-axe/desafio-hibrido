@@ -1,0 +1,16 @@
+<div class="block-howitworks">
+    <span class="title-howitworks">Como Funciona</span>
+    <div class="content-howitworks">
+        <?php $banners = $block->getBannerImages(); ?>
+        <?php foreach ($banners as $banner): ?>
+            <div class="item-howitworks">
+                <a href="<?php echo $banner['url']; ?>">
+                    <img src="<?php echo $banner['image']; ?>"
+                    alt="<?php echo $banner['alt']; ?>"/>
+                    <span class="title-item-howitworks"><?php echo $banner['title']; ?></span>
+                    <span class="description-howitworks"><?php echo $banner['description']; ?></span>
+                </a>
+            </div>
+        <?php endforeach; ?>
+    </div>
+</div>
