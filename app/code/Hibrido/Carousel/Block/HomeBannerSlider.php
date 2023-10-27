@@ -1,4 +1,11 @@
 <?php
+
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ *
+ * @author    Hibrido - 2023  
+ */
+
 namespace Hibrido\Carousel\Block;
 
 use Magento\Framework\View\Element\Template;

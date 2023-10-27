@@ -28,6 +28,8 @@
                     justify-content: center;
 
                     .item-howitworks {
+                        margin: 20px;
+                        
                         a {
                             display: flex;
                             flex-direction: column;
@@ -56,6 +58,24 @@
                             }
                         }
                     }
+                }
+            }
+        }
+    }
+}
+
+//
+//  Mobile
+//  _____________________________________________
+
+.media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__m) {
+    .cms-home {
+        .page-wrapper {
+            .block-howitworks {
+                .content-howitworks {
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
                 }
             }
         }

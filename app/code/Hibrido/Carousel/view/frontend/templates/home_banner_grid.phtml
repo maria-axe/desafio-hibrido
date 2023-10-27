@@ -1,16 +1,24 @@
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ *
+ * @author    Hibrido - 2023  
+ */
+-->
+
 <div class="block-grid">
-    <span class="title-grid">Conheça nossos diferenciais</span>
+    <span class="title-grid"><?=__('Discover our differences'); ?></span>
     <div class="content-grid">
         <?php $banners = $block->getBannerImages(); ?>
         <?php foreach ($banners as $banner): ?>
             <div class="item-grid">
-                <a href="<?php echo $banner['url']; ?>">
-                    <img src="<?php echo $banner['image']; ?>"
-                    alt="<?php echo $banner['alt']; ?>"/>
+                <a href="<?= $banner['url']; ?>">
+                    <img src="<?= $banner['image']; ?>"
+                    alt="<?= $banner['alt']; ?>"/>
                     <div class="info-item-grid">
-                        <span class="title-item-grid"><?php echo $banner['title']; ?></span>
-                        <span class="description-grid"><?php echo $banner['description']; ?></span>
-                        <button class="button-grid">Saiba mais</button>
+                        <span class="title-item-grid"><?= $banner['title']; ?></span>
+                        <span class="description-grid"><?= $banner['description']; ?></span>
+                        <button class="button-grid"><?= __('Shop Now'); ?></button>
                     </div>
                 </a>
             </div>

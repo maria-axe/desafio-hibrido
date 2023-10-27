@@ -11,6 +11,12 @@
 & when (@media-common =true) {
     .cms-home {
         .page-wrapper {
+            .product-launches-title {
+                font-size: 2rem;
+                text-transform: uppercase;
+                margin-top: 20px;
+            }
+
             .product-launches {
                 .block-content {
                     .products-grid {
@@ -19,6 +25,122 @@
                                 &:before {
                                     font-size: 1.5rem;
                                     font-weight: bolder;
+                                }
+                            }
+                        }
+
+                        .slick-track {
+                            .product-item {
+                                .product-item-info {
+                                    &:hover {
+                                        box-shadow: none;
+                                        border: none;
+                                        margin: 0;
+                                        padding: 0;
+                                    }
+
+                                    .product-item-details {
+                                        display: flex;
+                                        flex-direction: column;
+                                        position: relative;
+
+                                        .product-item-name {
+                                            text-transform: uppercase;
+                                            order: 2;
+
+                                            >a:visited {
+                                                text-decoration: none;
+                                            }
+                                        }
+
+                                        .product-item-inner {
+                                            display: block;
+                                            clip: auto;
+                                            height: auto;
+                                            margin: auto;
+                                            overflow: auto;
+                                            width: auto;
+                                            right: 0;
+                                            left: auto;
+                                            box-shadow: none;
+                                            border: none;
+
+                                            .actions-secondary {
+                                                a {
+                                                    margin-right: 20px;
+                                                    margin-top: 13px;
+
+                                                    &:before {
+                                                        color: #d32020;
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                                        .price-final_price {
+                                            display: flex;
+                                            align-items: center;
+                                            margin-left: 5px;
+                                            order: 3;
+
+                                            .old-price {
+                                                display: block;
+                                                text-decoration: line-through;
+                                            }
+                                        }
+
+                                        .price-container {
+                                            .price-label {
+                                                display: none;
+                                            }
+
+                                            .price {
+                                                color: #b16c6c;
+                                            }
+                                        }
+
+                                        .swatch-attribute {
+                                            &.size {
+                                                display: none;
+                                            }
+                                        }
+
+                                        .product-reviews-summary {
+                                            display: none;
+                                        }
+
+                                        .product-item-actions {
+                                            button {
+                                                &.tocart {
+                                                    &.primary {
+                                                        display: none;
+                                                    }
+                                                }
+                                            }
+
+                                            a {
+                                                &.tocompare {
+                                                    display: none;
+                                                }
+                                            }
+                                        }
+
+                                        .swatch-option {
+                                            border-radius: 15px;
+                                            height: 17px;
+                                            min-width: 16px;
+
+                                            &.color:not(.disabled) {
+                                                &:hover {
+                                                    outline: 2px solid #000;
+                                                }
+                                            }
+
+                                            &.selected {
+                                                outline: 2px solid #000;
+                                            }
+                                        }
+                                    }
                                 }
                             }
                         }

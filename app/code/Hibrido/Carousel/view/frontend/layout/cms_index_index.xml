@@ -10,5 +10,8 @@
             <block class="Hibrido\Carousel\Block\HomeBlockHowItWorks" name="home.block.howitworks" template="Hibrido_Carousel::home_block_howitworks.phtml" after="home.banner.slider"/>
             <block class="Hibrido\Carousel\Block\HomeBannerGrid" name="home.banner.grid" template="Hibrido_Carousel::home_banner_grid.phtml" after="home.block.howitworks"/>
         </referenceBlock>
+        <referenceBlock name="content">
+            <block class="Hibrido\Carousel\Block\HomeBannerGrid" name="home.banner.grid" template="Hibrido_Carousel::home_banner_grid.phtml" after="home.block.howitworks"/>
+        </referenceBlock>
     </body>
 </page>

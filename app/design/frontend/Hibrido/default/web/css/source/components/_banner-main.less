@@ -45,3 +45,47 @@
         }
     }
 }
+
+//
+//  Mobile
+//  _____________________________________________
+
+.media-width(@extremum, @break) when (@extremum ='max') and (@break =@screen__m) {
+    .cms-home {
+        .page-wrapper {
+            .banner-slider {
+                &.slick-initialized {
+                    .slick-list {
+                        .slick-slide {
+                            a {
+                                span {
+                                    font-size: 1.3rem;
+                                }
+                            }
+                        }
+
+                    }
+
+                    button {
+                        &.slick-arrow {
+                            width: 30px;
+                            height: 30px;
+
+                            &:before {
+                                font-size: 1.3rem;
+                                display: flex;
+                                justify-content: center;
+                            }
+                        }
+                    }
+
+                    ul {
+                        &.slick-dots {
+                            bottom: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
