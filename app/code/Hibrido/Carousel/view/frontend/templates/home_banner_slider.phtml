@@ -1,0 +1,10 @@
+<div class="banner-slider">
+    <?php $banners = $block->getBannerImages(); ?>
+    <?php foreach ($banners as $banner): ?>
+        <a href="<?php echo $banner['url']; ?>">
+            <img src="<?php echo $banner['image']; ?>"
+            alt="<?php echo $banner['alt']; ?>"/>
+            <span><?php echo $banner['title']; ?></span>
+        </a>
+    <?php endforeach; ?>
+</div>

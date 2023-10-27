@@ -1,0 +1,47 @@
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ *
+ * @author    Hibrido -2023  
+*/
+
+//
+//  Common
+//  _____________________________________________
+
+& when (@media-common =true) {
+    .cms-home {
+        .page-wrapper {
+            .banner-slider {
+                .slick-list {
+                    a {
+                        position: relative;
+
+                        img {
+                            width: 100%;
+                        }
+
+                        span {
+                            position: absolute;
+                            top: 50%;
+                            left: 15%;
+                            color: #000;
+                            font-weight: 800;
+                            font-size: 46px;
+                            max-width: 568px;
+                        }
+                    }
+
+                }
+
+                ul {
+                    &.slick-dots {
+                        position: absolute;
+                        bottom: 51px;
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+}
